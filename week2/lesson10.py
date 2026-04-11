@@ -6,7 +6,7 @@ In this lesson we will learn how to rename columnsand indexes with rename() meth
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 df.rename(columns={"Sex": "Gender"}, inplace=True)
 

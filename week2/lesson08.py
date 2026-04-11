@@ -10,7 +10,7 @@ To count categorically we are using value_counts() method and we can also find r
 For more details look at the lesson code
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 length = len(df["Sex"])
 count = df["Sex"].count()

@@ -10,7 +10,7 @@ We can also make some mathemetical operation in rows such as calculatin averge o
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 count = df.count()
 std = df["Fare"].std()

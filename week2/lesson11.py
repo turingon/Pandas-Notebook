@@ -6,7 +6,7 @@ In this lesson we will learn how can we select rows according to conditions like
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 survivors = df[df["Survived"] > 0]
 

@@ -9,7 +9,7 @@ also we will use np.select() method
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 conditions = [
     (df["Pclass"] == 1) & (df["Survived"] == 1),

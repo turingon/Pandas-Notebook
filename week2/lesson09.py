@@ -8,7 +8,7 @@ For more detail please look at the lesson's code
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 sorted_fare = df.sort_values("Fare", ascending=True)
 

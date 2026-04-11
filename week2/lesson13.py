@@ -8,7 +8,7 @@ We will learn & | operators to use multiple conditionals
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
 
 third_class_survivors = df[(df["Pclass"] == 3) & (df["Survived"] == 1)]
 

@@ -9,4 +9,4 @@ for this we will use duplicated method of pandas
 
 """
 
-df = pd.read_csv("../data/train.csv")
+df = pd.read_csv("../datas/train.csv")
